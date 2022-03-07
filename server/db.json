@@ -1,0 +1,165 @@
+{
+  "menuItems": [
+    {
+      "id": 1,
+      "name": "Garden salad (300 cal)",
+      "description": "Cherry tomatoes, cucumber slices, and julienne carrots on a bed of mixed greens with a light poppy seed dressing.",
+      "customizations": [
+        {
+          "customizationDesc": "Raw Vegetables",
+          "customizationOptions": [
+            {
+              "customName": "Cherry Tomatoes",
+              "checked": true
+            },
+            {
+              "customName": "Julienne Carrots",
+              "checked": true
+            },
+            {
+              "customName": "Cucumber Slices",
+              "checked": true
+            }
+          ]
+        },
+        {
+          "customizationDesc": "Salad Dressing",
+          "customizationOptions": [
+            {
+              "customName": "Poppy Seed Dressing",
+              "checked": true
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Avocado toast (500 cal)",
+      "description": "Fresh avocado spread on a perfectly toasted slice of whole wheat bread."
+    },
+    {
+      "id": 3,
+      "name": "Hummus with pita chips (350 cal)",
+      "description": "Garlic roasted hummus served with lightly salted pita chips."
+    }
+  ],
+  "orders": {
+    "items": [
+      {
+        "id": "1-Julienne Carrots,Cucumber Slices,Poppy Seed Dressing",
+        "name": "Garden salad (300 cal)",
+        "description": "Cherry tomatoes, cucumber slices, and julienne carrots on a bed of mixed greens with a light poppy seed dressing.",
+        "customizations": [
+          {
+            "customizationDesc": "Raw Vegetables",
+            "customizationOptions": [
+              {
+                "customName": "Cherry Tomatoes",
+                "checked": false
+              },
+              {
+                "customName": "Julienne Carrots",
+                "checked": true
+              },
+              {
+                "customName": "Cucumber Slices",
+                "checked": true
+              }
+            ]
+          },
+          {
+            "customizationDesc": "Salad Dressing",
+            "customizationOptions": [
+              {
+                "customName": "Poppy Seed Dressing",
+                "checked": true
+              }
+            ]
+          }
+        ],
+        "qty": 4
+      },
+      {
+        "id": "1-Cherry Tomatoes,Julienne Carrots,Cucumber Slices,Poppy Seed Dressing",
+        "name": "Garden salad (300 cal)",
+        "description": "Cherry tomatoes, cucumber slices, and julienne carrots on a bed of mixed greens with a light poppy seed dressing.",
+        "customizations": [
+          {
+            "customizationDesc": "Raw Vegetables",
+            "customizationOptions": [
+              {
+                "customName": "Cherry Tomatoes",
+                "checked": true
+              },
+              {
+                "customName": "Julienne Carrots",
+                "checked": true
+              },
+              {
+                "customName": "Cucumber Slices",
+                "checked": true
+              }
+            ]
+          },
+          {
+            "customizationDesc": "Salad Dressing",
+            "customizationOptions": [
+              {
+                "customName": "Poppy Seed Dressing",
+                "checked": true
+              }
+            ]
+          }
+        ],
+        "qty": 2
+      },
+      {
+        "id": "1-Cherry Tomatoes,Poppy Seed Dressing",
+        "name": "Garden salad (300 cal)",
+        "description": "Cherry tomatoes, cucumber slices, and julienne carrots on a bed of mixed greens with a light poppy seed dressing.",
+        "customizations": [
+          {
+            "customizationDesc": "Raw Vegetables",
+            "customizationOptions": [
+              {
+                "customName": "Cherry Tomatoes",
+                "checked": true
+              },
+              {
+                "customName": "Julienne Carrots",
+                "checked": false
+              },
+              {
+                "customName": "Cucumber Slices",
+                "checked": false
+              }
+            ]
+          },
+          {
+            "customizationDesc": "Salad Dressing",
+            "customizationOptions": [
+              {
+                "customName": "Poppy Seed Dressing",
+                "checked": true
+              }
+            ]
+          }
+        ],
+        "qty": 1
+      },
+      {
+        "id": "2-",
+        "name": "Avocado toast (500 cal)",
+        "description": "Fresh avocado spread on a perfectly toasted slice of whole wheat bread.",
+        "qty": 4
+      },
+      {
+        "id": "3-",
+        "name": "Hummus with pita chips (350 cal)",
+        "description": "Garlic roasted hummus served with lightly salted pita chips.",
+        "qty": 3
+      }
+    ]
+  }
+}
